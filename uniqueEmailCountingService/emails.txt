@@ -1,0 +1,8 @@
+testemail@gmail.com
+test.email@gmail.com
+test.email+spam@gmail.com
+aName@anIncompleteDomain
+somethingelse@anotherdomain.edu
+thisIsntEvenAnEmailAddress
+test.email@server.com
+

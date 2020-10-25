@@ -1,0 +1,17 @@
+#!/bin/bash
+
+which python3 > /dev/null
+if [[ $? == 0 ]]; then
+  PYTHON=python3
+else
+  which python2 > /dev/null
+  if [[ $? == 0 ]]; then
+    PYTHON=python2
+  else
+    # As a last resort, see if we can resolve "python"
+    PYTHON=python
+  fi
+fi
+
+echo "USING PYTHON: $PYTHON"
+
