@@ -129,9 +129,11 @@ class UniqueEmailCounterService(object):
       # Remove any "."
       name = name.replace(".", "")
 
-      # Finally, have the name lowercased such that something like
-      # "name" and "NAME" resolve to the same thing.
+      # Finally, have the name and domain lowercased such that something
+      # like "name" and "NAME" or "domain" and "DOMAIN" resolve to the same
+      # thing.
       name = name.lower()
+      domain = domain.lower()
 
       # Regenerate the address to return
       validatedEmail = "".join((name, "@", domain))

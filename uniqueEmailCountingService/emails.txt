@@ -5,4 +5,6 @@ aName@anIncompleteDomain
 somethingelse@anotherdomain.edu
 thisIsntEvenAnEmailAddress
 test.email@server.com
+test.email@SERVER.com
+test.email@server.COM
 
